@@ -12,7 +12,7 @@ app = FastAPI(
     version="ai-v1",
     openapi_version="3.0.3",
     servers=[
-        {"url": "https://foodpredict-production-ac70.up.railway.app", "description": "Production API"},
+        {"url": "https://predictfoodimageai-production.up.railway.app", "description": "Production API"},
         {"url": "http://127.0.0.1:8000", "description": "FastAPI Local"},
         {"url": "http://localhost:8000", "description": "FastAPI Localhost"},
         {"url": "http://localhost:5013", "description": "C# API"}
